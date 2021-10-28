@@ -38,7 +38,7 @@ img {
   max-width: 100%;
 }
 figcaption {
-  color: black;
+  color: white;
   position: absolute;
   bottom: 0px;
   background: rgba(20,20,20,0.8);
