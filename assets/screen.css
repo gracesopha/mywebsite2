@@ -14,10 +14,14 @@ html {
   font-size: 24px; /* 24/16= 1.5 em*/
   line-height: 28px; /* 28/16= 1.75 em*/
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 12px;
+}
+body {
+  background-color: pink;
 }
 
 #content {
-  background-color: pink;
+
 }
 
 #petscontent{
@@ -33,13 +37,13 @@ img {
   display: block;
   max-width: 100%;
 }
-
 figcaption {
-  color: #EEE;
+  color: black;
+  position: absolute;
+  bottom: 0px;
   background: rgba(20,20,20,0.8);
 }
-
-.photo-gallery li {
+.gallery li {
   margin-bottom: 12px;
 }
 
