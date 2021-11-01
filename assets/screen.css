@@ -11,14 +11,48 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   box-sizing: border-box;
 }
 html {
-  font-size: 24px; /* 24/16= 1.5 em*/
-  line-height: 28px; /* 28/16= 1.75 em*/
+  font-size: 1.5em; /* 24/16= 1.5 em*/
+  line-height: 1.75em; /* 28/16= 1.75 em*/
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 12px;
+  padding: 1em;
 }
 body {
   background-color: pink;
+  padding: 2em;
 }
+h1 {
+  font-size: 2.25em;
+  line-height: 1.25em;
+  text-align: center;
+  padding: 0.75em;
+}
+h2 {
+  font-size: 1.75em;
+  line-height: 1em;
+}
+h3 {
+  font-size: 1.25em;
+  line-height: 1em;
+}
+p {
+  font-size: 1em;
+  line-height: 1;
+  padding: 1.25em;
+}
+nav {
+  font-size: 0.75em;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+}
+footer {
+  font-size: 0.75em;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  background: rgba(10,10,10,0.2);
+}
+
 
 #content {
 
@@ -44,13 +78,13 @@ figcaption {
   background: rgba(20,20,20,0.8);
 }
 .gallery li {
-  margin-bottom: 12px;
+  margin-bottom: 1em;
 }
 
 
 /* MEDIA QUERIES */
-
-@media screen and (min-width: 300px) {
+/* 300/16px=18.75em em*/
+@media screen and (min-width: 18.75em) {
   figure {
     position: relative;
   }
@@ -58,22 +92,17 @@ figcaption {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 6px;
+    padding: 0.5em;
   }
 }
-@media screen and (min-width: 440px) {
-  html {
-    font-size: 1.25em;
-    line-height: 1.5em;
-  }
-}
-@media screen and (min-width: 585px) {
+/* 600/16px=37.5 em*/
+@media screen and (min-width: 37.5em) {
   figure {
     display: grid;
     grid-template-columns: 4fr 3fr;
     grid-template-rows: auto;
-    grid-gap: 12px;
-    gap: 12px;
+    grid-gap: 1em;
+    gap: 1em;
   }
   figcaption {
     position: static;
