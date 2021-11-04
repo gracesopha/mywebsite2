@@ -11,8 +11,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   box-sizing: border-box;
 }
 html {
-  font-size: 1.5em; /* 24/16= 1.5 em*/
-  line-height: 1.75em; /* 28/16= 1.75 em*/
+  font-size: 1.5em; /* 24/16px= 1.5 em*/
+  line-height: 1.55555556em; /* 28/18px= 1.55555556 em*/
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 1em;
 }
