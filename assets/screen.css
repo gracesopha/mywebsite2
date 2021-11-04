@@ -17,10 +17,10 @@ html {
   padding: 0.6666666667em; /* 16/24px= 0.6666666667 em*/
   background-color: #FFCCE5;
 }
-html#myresume{
+html#myresume {
   background-color: #E5CCFF;
 }
-html#mypets{
+html#mypets {
   background-color: pink;
 }
 body {
