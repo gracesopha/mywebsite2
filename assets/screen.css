@@ -15,9 +15,10 @@ html {
   line-height: 1.1666666667em; /* 28/24px= 1.1666666667 em*/
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0.6666666667em; /* 16/24px= 0.6666666667 em*/
+  background-color: #FFCCE5;
 }
 body {
-  background-color: pink;
+  background-color: #FFCCE5;
   padding: 0.5em; /* 12/24px= 0.5 em*/
   margin: 0;
 }
