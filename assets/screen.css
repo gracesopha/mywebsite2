@@ -57,6 +57,8 @@ ol {
 ul {
   font-size: 0.75em; /* 18/24px= 0.75 em*/
   margin-left: 1em; /* 24/24px= 1 em*/
+}
+ul#contacts {
   list-style-type: square;
 }
 nav {
