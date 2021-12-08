@@ -120,7 +120,8 @@ figcaption {
   ul#contacts {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 1em;
+    grid-template-rows: auto;
+    grid-row-gap: 1em;
     gap: 1em;
   }
 }
