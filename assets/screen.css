@@ -123,6 +123,7 @@ figcaption {
     grid-template-rows: auto;
     grid-row-gap: 1em;
     gap: 1em;
+    justify-content: space-between;
   }
 }
 /*
